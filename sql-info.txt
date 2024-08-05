@@ -1,0 +1,80 @@
+Information?
+name
+age
+nativ place
+address
+qualification
+family background
+country
+blood group
+school name
+job details
+
+1. Personal
+    -name
+    -dob
+    -age
+    -gender
+    -bloodgroup
+
+2. Contact
+    -Email
+    -mobileno
+    -address
+    -city
+    -state
+    -country
+
+3. Education
+    -qualification
+    -university
+    -marks/grades
+
+4. Job Details
+    -companyname
+    -employeeid
+    -jobprofile
+    -experience
+    -salary
+
+Data?
+Collection of Interrelated information
+
+Database?
+Set of data in large quantity. Stored in various structures
+like file structures, or documents, or tables
+
+
+Database Management
+Performing various kind of operations on the data like
+CREATE, READ, UPDATE, DELETE (CRUD), Security,
+Transactions, Backup and utility
+
+Relational Database
+Storing the data in tabular format to have a relationship
+between various data properties
+
+Relational Database Management
+Performing various kind of operations on the data stored in 
+Relational Database
+
+DBMS - 
+A system or process wchic allows us to perform database management operations
+
+RDBMS - 
+A system or process which allows us to perfom database management operations on
+Relational Data
+
+How to work with RDBMS?
+The data is in strucutred format. To operate on that data we require a language
+that is Structure Query Language (SQL)
+
+Which are the RDBMS available in market?
+1. Oracle
+2. MySQL(Open Source)
+3. PostgreSQL(Open SOurce)
+4. MS-SQL
+5. SQLite (Open)
+6. Apache Derby
+...
+N
