@@ -1,0 +1,10 @@
+use ems;
+show tables;
+select * from demo;
+DELETE FROM demo;
+DELETE FROM demo WHERE empid = 10;
+DELETE FROM demo WHERE empdesignation = 'HR';
+INSERT INTO demo (empname,empsalary,empdesignation)VALUES('Sam',55000,'Trainee Engineer');
+Truncate table demo;
+commit;
+rollback;
