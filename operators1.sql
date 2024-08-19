@@ -17,4 +17,5 @@ SELECT * FROM tbl_employee WHERE NOT EXISTS(SELECT distinct empcity FROM tbl_emp
 
 SELECT * FROM tbl_employee WHERE empdesignation = ANY(SELECT empdesignation FROM tbl_employee WHERE gender = 'Female');
 SELECT * FROM tbl_employee WHERE empsalary <= ALL(SELECT empsalary FROM tbl_employee WHERE gender = 'Female');
--- SELECT * FROM tbl_employee WHERE empdesignation != SOME(SELECT empdesignation FROM tbl_employee WHERE gender = 'Female');
+SELECT empdesignation FROM tbl_employee WHERE gender = 'Female';
+SELECT * FROM tbl_employee WHERE empdesignation = SOME(SELECT empdesignation FROM tbl_employee WHERE gender = 'x');
